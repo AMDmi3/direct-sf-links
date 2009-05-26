@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           Sourceforge Direct Links
+// @name           Direct links on Sourceforge download pages
 // @namespace      http://www.amdmi3.ru/
 // @include        http://sourceforge.net/project/showfiles.php*
 // @include        http://www.sourceforge.net/project/showfiles.php*
@@ -7,7 +7,9 @@
 
 (function()
 {
-  var mirror = "add_your_favourite_mirror_here";
+  // !!! Change this to your favorite mirror !!!
+  var mirror = "your_favorite_mirror";
+
   var project = document.evaluate(
       "//a[@name='projectnav']/following::a[starts-with(@href, '/projects/')]/@href",
       document, null, XPathResult.STRING_TYPE, null
