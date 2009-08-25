@@ -13,10 +13,8 @@
   for(var i = 0; i < document.links.length; i++) {
     var elem = document.links[i];
 
-    if (elem.href.match(/\/projects\/([^\/]+)\/files\/(.+\/[^&\/]+)\/download/i)) {
-
+    if (elem.href.match(/\/projects\/([^\/]+)\/files\/(.+)\/download/i)) {
       elem.href="http://"+mirror+".dl.sourceforge.net/project/"+RegExp.$1+"/"+RegExp.$2;
-
     }
   }
 })();
