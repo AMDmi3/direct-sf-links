@@ -3,6 +3,8 @@
 // @namespace      http://www.amdmi3.ru/
 // @include        http://sourceforge.net/projects/*/files/
 // @include        http://www.sourceforge.net/projects/*/files/
+// @include        https://sourceforge.net/projects/*/files/
+// @include        https://www.sourceforge.net/projects/*/files/
 // ==/UserScript==
 
 (function()
