@@ -10,7 +10,7 @@
 (function()
 {
   // !!! Change this to your favorite mirror !!!
-  var mirror = "your_favorite_mirror";
+  var mirror = "kent";
 
   for(var i = 0; i < document.links.length; i++) {
     var elem = document.links[i];
